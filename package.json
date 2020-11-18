@@ -18,7 +18,6 @@
     "jquery": "^3.5.1",
     "popper.js": "^1.16.0",
     "shortid": "^2.2.16",
-    "txtgen": "^2.2.8",
     "vue": "^2.6.10",
     "vue-audio-recorder": "^3.0.1",
     "vue-router": "^3.1.3",

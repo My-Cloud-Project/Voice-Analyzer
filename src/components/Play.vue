@@ -89,7 +89,7 @@ export default {
       });
       this.$https
         .post(
-          "https://5klup2e7pc.execute-api.us-east-1.amazonaws.com/getsignedurl",
+          "https://0neq7k3g93.execute-api.us-east-1.amazonaws.com/getsignedurl",
           { fileName: uniqueFileName, fileType: "audio/mpeg" },
           { headers: { "Content-Type": "application/octet-stream" } }
         )
@@ -114,7 +114,7 @@ export default {
               });
               this.$https
                 .post(
-                  "https://8wdzm5g2jd.execute-api.us-east-1.amazonaws.com/starttranscriptionjob",
+                  "https://53vdb4s8wc.execute-api.us-east-1.amazonaws.com/starttranscriptionjob",
                   { fileName: uniqueFileName },
                   { headers: { "Content-Type": "application/json" } }
                 )
@@ -128,7 +128,7 @@ export default {
                   let interval = setInterval(() => {
                     this.$https
                     .post(
-                      "https://13o9feksxl.execute-api.us-east-1.amazonaws.com/getjobstatus",
+                      "https://29q6wuc10a.execute-api.us-east-1.amazonaws.com/getjobstatus",
                       { fileName: uniqueFileName },
                       { headers: { "Content-Type": "application/json" } }
                     )
@@ -144,7 +144,7 @@ export default {
                         });
                         this.$https
                           .post(
-                            "https://viirh50w14.execute-api.us-east-1.amazonaws.com/gettranscribedcontent",
+                            "https://gi6gu3pik5.execute-api.us-east-1.amazonaws.com/gettranscribedcontent",
                             { fileName: uniqueFileName },
                             { headers: { "Content-Type": "application/json" } }
                           )
