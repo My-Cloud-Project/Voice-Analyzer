@@ -3,7 +3,7 @@
 Vue application to analyze voice and check pronounciation accuracy.
 
 #
-## Cloud Architecture
+## Architecture Diagram
 ![Object Model](src/assets/ArchitectureDiagram.png)
 
 
